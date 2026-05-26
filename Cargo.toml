@@ -1,0 +1,15 @@
+[workspace]
+resolver = "2"
+members = [
+    "pocket-core",
+    "pocket-cli",
+    "pocket-engine",
+    "pocket-server",
+    "pocket-ui",
+]
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"

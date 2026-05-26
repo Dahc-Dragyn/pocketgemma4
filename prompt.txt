@@ -1,0 +1,1 @@
+Explain the difference between standard RoPE and Proportional RoPE (p-RoPE) using an illustrative metaphor.

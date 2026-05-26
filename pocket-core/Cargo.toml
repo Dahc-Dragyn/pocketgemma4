@@ -1,0 +1,9 @@
+[package]
+name = "pocket-core"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+thiserror = "1.0"
+anyhow = "1.0"
+sysinfo = "0.30"

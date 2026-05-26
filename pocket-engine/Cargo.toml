@@ -1,0 +1,16 @@
+[package]
+name = "pocket-engine"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+pocket-core = { path = "../pocket-core" }
+candle-core = { git = "https://github.com/huggingface/candle.git" }
+candle-transformers = { git = "https://github.com/huggingface/candle.git" }
+candle-nn = { git = "https://github.com/huggingface/candle.git" }
+tokenizers = { version = "0.22.2", default-features = false, features = ["fancy-regex"] }
+anyhow = "1.0"
+tokio = { version = "1.35", features = ["rt", "sync"] }
+memmap2 = "0.9"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
