@@ -1,8 +1,8 @@
-# 💎 PocketGemma
+# 💎 PocketGemma4--- Is not working atm! Pocketgemma https://github.com/Dahc-Dragyn/pocketgemma.git  is running =) if the end of the world has happend and you need a LLM... its slow use the best computer you can get ahold of. The model is currently "thinking" and outputting random multilingual noise because the Q4_K_M quantization headers are being destroyed by manual memory-slicing and pagefile thrashing, forcing the engine to dequantize corrupted weight data.
 
-### *Hyper-Optimized, Self-Contained Edge AI & Chat HUD for Gemma 2*
+### *Hyper-Optimized, Self-Contained Edge AI & Chat HUD for Gemma 4 *google_gemma-4-E2B-it-Q4_K_M.gguf
 
-**PocketGemma** is a high-performance, single-binary local LLM runner optimized exclusively for **Gemma 2 2B IT**. Built entirely in Rust, it bundles a customized quantized tensor parser, an active conversational context manager, a physical RAM protection guardrail, a Gemini-compatible REST server, and a beautiful embedded web-based HUD into one self-contained, lightning-fast execution file.
+**PocketGemma4** is a high-performance, single-binary local LLM runner optimized exclusively for **Gemma 2 2B IT**. Built entirely in Rust, it bundles a customized quantized tensor parser, an active conversational context manager, a physical RAM protection guardrail, a Gemini-compatible REST server, and a beautiful embedded web-based HUD into one self-contained, lightning-fast execution file.
 
 ---
 
